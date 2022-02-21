@@ -1,0 +1,8 @@
+CREATE TABLE users(
+	id int identity(1,1) primary key,
+	fullname varchar(50),
+	username varchar(50),
+	passwd varchar(50),
+	active varchar(50),
+	createdate varchar(50)
+);
